@@ -68,11 +68,81 @@
       </div>
     </div>
   </div>
+
+  <div class="stories__cards">
+    <div class="stories__cards-item" v-for="item in items" :key="item.id">
+      <img :src="item.img" :alt="item.name" />
+      <div class="stories__cards-text">
+        <div class="stories__cards-date">{{ item.date }}</div>
+        <div class="stories__cards-title">
+          {{ item.name }}
+        </div>
+        <div class="stories__cards-author">{{ item.author }}</div>
+        <div class="stories__cards-hr"></div>
+        <div class="stories__cards-links">
+          <div class="stories__cards-story">read story</div>
+          <div class="stories__cards-arrow">
+            <svg
+              width="42.135315"
+              height="12.707031"
+              viewBox="0 0 42.1353 12.707"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 3"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 3"
+                d="M0 6.35L41.86 6.35"
+                stroke="#FFFFFF"
+                stroke-opacity="1.000000"
+                stroke-width="1.000000"
+              />
+              <path
+                id="Path 4"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 4"
+                d="M35.42 0.35L41.42 6.35L35.42 12.35"
+                stroke="#FFFFFF"
+                stroke-opacity="1.000000"
+                stroke-width="1.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "AppStories",
+  data() {
+    return {
+      items: [],
+    };
+  },
+  created() {
+    fetch("/database.json")
+      .then((response) => response.json())
+      .then((data) => {
+        this.items = data;
+      });
+  },
 };
 </script>
 
@@ -82,8 +152,83 @@ export default {
 .stories {
   width: 100%;
   position: relative;
+  height: 100%;
   z-index: -1;
   margin-top: -71px;
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    &-item img {
+      width: 475px;
+      height: 600px;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0.274%,
+        rgba(0, 0, 0, 0.66) 100%
+      );
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    &-text {
+      color: white;
+      margin-top: -146px;
+      margin-left: 40px;
+    }
+    &-hr {
+      background: rgb(255, 255, 255);
+      opacity: 0.25;
+      width: 395px;
+      height: 1px;
+      margin-top: 16px;
+      margin-bottom: 20px;
+    }
+    &-title {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 4px;
+    }
+
+    &-author {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: left;
+      opacity: 0.9;
+    }
+
+    &-links {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-story {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 2px;
+      text-align: left;
+      cursor: pointer;
+      margin-bottom: 24px;
+    }
+    &-arrow {
+      margin-right: 40px;
+      cursor: pointer;
+    }
+  }
 
   &__hero {
     &-img {
@@ -93,9 +238,9 @@ export default {
     &-wrapper {
       position: absolute;
       top: 20%;
-      left: 33.5%;
+      left: 17.5%;
       transform: translate(-50%, -50%);
-      margin-left: 112px;
+
       margin-top: 200px;
     }
 
@@ -130,6 +275,53 @@ export default {
       line-height: 17px;
       letter-spacing: 0px;
       text-align: left;
+      opacity: 0.75;
+      margin-right: 9px;
+    }
+
+    &-date {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    &-descr {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: left;
+      opacity: 0.6;
+      width: 387px;
+      height: 125px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    &-btn {
+      height: 16px;
+      display: flex;
+    }
+
+    &-btn button {
+      border: 0;
+      background: none;
+
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 2px;
+      text-align: right;
+      text-transform: uppercase;
+      margin-right: 16px;
     }
   }
 }
