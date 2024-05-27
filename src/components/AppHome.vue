@@ -10,8 +10,46 @@
           Photosnap is a platform for photographers and visual storytellers. We
           make it easy to share photos, tell stories and connect with others.
         </div>
-        <button class="home__photo-btn">Get an invite</button>
-        <img src="../assets/img/shared/desktop/arrow.svg" alt="arrow" />
+        <button class="home__photo-btn home__dif-btn">Get an invite</button>
+        <svg
+          width="42.135315"
+          height="12.707092"
+          viewBox="0 0 42.1353 12.7071"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <desc>Created with Pixso.</desc>
+          <defs />
+          <path
+            id="Path 3"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 3"
+            d="M0 6.35L41.86 6.35"
+            stroke="#FFFFFF"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+          <path
+            id="Path 4"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 4"
+            d="M35.42 0.35L41.42 6.35L35.42 12.35"
+            stroke="#FFFFFF"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+        </svg>
       </div>
       <div class="home__photo-img">
         <img
@@ -38,6 +76,45 @@
           Then share your story with everyone.
         </div>
         <button class="home__photo-btn text-black">Get an invite</button>
+        <svg
+          width="42.135330"
+          height="12.707153"
+          viewBox="0 0 42.1353 12.7072"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <desc>Created with Pixso.</desc>
+          <defs />
+          <path
+            id="Path 3"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 3"
+            d="M0 6.35L41.86 6.35"
+            stroke="#000000"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+          <path
+            id="Path 4"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 4"
+            d="M35.42 0.35L41.42 6.35L35.42 12.35"
+            stroke="#000000"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+        </svg>
       </div>
     </div>
 
@@ -51,12 +128,327 @@
           brands, businesses you name it.
         </div>
         <button class="home__photo-btn text-black">Get an invite</button>
+        <svg
+          width="42.135330"
+          height="12.707153"
+          viewBox="0 0 42.1353 12.7072"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <desc>Created with Pixso.</desc>
+          <defs />
+          <path
+            id="Path 3"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 3"
+            d="M0 6.35L41.86 6.35"
+            stroke="#000000"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+          <path
+            id="Path 4"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 4"
+            d="M35.42 0.35L41.42 6.35L35.42 12.35"
+            stroke="#000000"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+        </svg>
       </div>
       <div class="home__photo-img">
         <img
           src="../assets/img/home/desktop/designed-for-everyone.jpg"
           alt="create and share photo"
         />
+      </div>
+    </div>
+
+    <div class="home__cards">
+      <div class="home__cards-wrapper">
+        <div class="home__cards-item">
+          <img
+            src="../assets/img/stories/desktop/mountains.jpg"
+            alt="mountains"
+          />
+          <div class="home__cards-text">
+            <div class="home__cards-title">The Mountains</div>
+            <div class="home__cards-author">by John Appleseed</div>
+            <div class="home__cards-hr"></div>
+            <div class="home__cards-links">
+              <div class="home__cards-story">read story</div>
+              <div class="home__cards-arrow">
+                <svg
+                  width="42.135315"
+                  height="12.707031"
+                  viewBox="0 0 42.1353 12.707"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Path 3"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 3"
+                    d="M0 6.35L41.86 6.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                  <path
+                    id="Path 4"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 4"
+                    d="M35.42 0.35L41.42 6.35L35.42 12.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__cards-item">
+          <img
+            src="../assets/img/stories/desktop/cityscapes.jpg"
+            alt="cityscapes"
+          />
+          <div class="home__cards-text">
+            <div class="home__cards-title">Sunset Cityscapes</div>
+            <div class="home__cards-author">by Benjamin Cruz</div>
+            <div class="home__cards-hr"></div>
+            <div class="home__cards-links">
+              <div class="home__cards-story">read story</div>
+              <div class="home__cards-arrow">
+                <svg
+                  width="42.135315"
+                  height="12.707031"
+                  viewBox="0 0 42.1353 12.707"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Path 3"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 3"
+                    d="M0 6.35L41.86 6.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                  <path
+                    id="Path 4"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 4"
+                    d="M35.42 0.35L41.42 6.35L35.42 12.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__cards-item">
+          <img
+            src="../assets/img/stories/desktop/18-days-voyage.jpg"
+            alt="18-days-voyage"
+          />
+          <div class="home__cards-text">
+            <div class="home__cards-title">18 Days Voyage</div>
+            <div class="home__cards-author">by Alexei Borodin</div>
+            <div class="home__cards-hr"></div>
+            <div class="home__cards-links">
+              <div class="home__cards-story">read story</div>
+              <div class="home__cards-arrow">
+                <svg
+                  width="42.135315"
+                  height="12.707031"
+                  viewBox="0 0 42.1353 12.707"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Path 3"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 3"
+                    d="M0 6.35L41.86 6.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                  <path
+                    id="Path 4"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 4"
+                    d="M35.42 0.35L41.42 6.35L35.42 12.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__cards-item">
+          <img
+            src="../assets/img/stories/desktop/architecturals.jpg"
+            alt="architecturals"
+          />
+          <div class="home__cards-text">
+            <div class="home__cards-title">Architecturals</div>
+            <div class="home__cards-author">by Samantha Brooke</div>
+            <div class="home__cards-hr"></div>
+            <div class="home__cards-links">
+              <div class="home__cards-story">read story</div>
+              <div class="home__cards-arrow">
+                <svg
+                  width="42.135315"
+                  height="12.707031"
+                  viewBox="0 0 42.1353 12.707"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <desc>Created with Pixso.</desc>
+                  <defs />
+                  <path
+                    id="Path 3"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 3"
+                    d="M0 6.35L41.86 6.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                  <path
+                    id="Path 4"
+                    d=""
+                    fill="#D8D8D8"
+                    fill-opacity="0"
+                    fill-rule="nonzero"
+                  />
+                  <path
+                    id="Path 4"
+                    d="M35.42 0.35L41.42 6.35L35.42 12.35"
+                    stroke="#FFFFFF"
+                    stroke-opacity="1.000000"
+                    stroke-width="1.000000"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home__ad">
+      <div class="home__ad-wrapper">
+        <div class="home__ad-card">
+          <div class="home__ad-img">
+            <img
+              src="../assets/img/features/desktop/responsive.svg"
+              alt="responsive"
+            />
+          </div>
+          <div class="home__ad-title">100% Responsive</div>
+          <div class="home__ad-descr">
+            No matter which the device you’re on, our site is fully responsive
+            and stories look beautiful on any screen.
+          </div>
+        </div>
+
+        <div class="home__ad-card home__dif">
+          <div class="home__ad-img">
+            <img
+              src="../assets/img/features/desktop/no-limit.svg"
+              alt="no-limit"
+            />
+          </div>
+          <div class="home__ad-title home__dif-title">
+            No Photo Upload Limit
+          </div>
+          <div class="home__ad-descr">
+            Our tool has no limits on uploads or bandwidth. Freely upload in
+            bulk and share all of your stories in one go.
+          </div>
+        </div>
+
+        <div class="home__ad-card">
+          <div class="home__ad-img">
+            <img
+              src="../assets/img/features/desktop/embed.svg"
+              alt="responsive"
+            />
+          </div>
+          <div class="home__ad-title">Available to Embed</div>
+          <div class="home__ad-descr">
+            Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+            videos, Google Maps, and more.
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -72,13 +464,137 @@ export default {
 @import "../variables";
 
 .home {
-  margin-top: 16px;
+  position: relative;
+
   .text-white {
     background-color: white;
   }
 
+  &__ad {
+    height: 476px;
+    margin: 0 auto;
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    &-img {
+      display: flex;
+      justify-content: center;
+      margin-top: 120px;
+      margin-bottom: 48px;
+    }
+    &-title {
+      display: flex;
+      justify-content: center;
+      color: rgb(0, 0, 0);
+      font-family: $dmsans;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    &-descr {
+      opacity: 0.6;
+
+      color: rgb(0, 0, 0);
+      font-family: $dmsans;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+    &-card {
+      width: 350px;
+      height: 236px;
+    }
+  }
+  &__dif-btn {
+    margin-left: 206px !important;
+  }
+  &__dif {
+    margin-top: 18px;
+  }
+  &__dif-title {
+    margin-top: 66px;
+  }
+
+  &__cards img {
+    width: 475px;
+    height: 660px;
+  }
+
+  &__cards {
+    &-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-text {
+      color: white;
+      margin-top: -146px;
+      margin-left: 40px;
+    }
+    &-hr {
+      background: rgb(255, 255, 255);
+      opacity: 0.25;
+      width: 395px;
+      height: 1px;
+      margin-top: 16px;
+      margin-bottom: 20px;
+    }
+    &-title {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 4px;
+    }
+
+    &-author {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: left;
+      opacity: 0.9;
+    }
+
+    &-links {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-story {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 2px;
+      text-align: left;
+      cursor: pointer;
+    }
+    &-arrow {
+      margin-right: 40px;
+      cursor: pointer;
+    }
+  }
   .text-black {
     color: black;
+  }
+
+  &__photo svg {
+    margin-left: 15px;
+    margin-bottom: -1px;
   }
   &__photo {
     display: flex;
@@ -103,7 +619,7 @@ export default {
         rgb(90, 119, 255) 74.998%
       );
       position: absolute;
-      top: 37%;
+      top: 8%;
     }
 
     &-title {
@@ -126,7 +642,7 @@ export default {
       border: none;
       background: none;
       color: white;
-      margin-left: 205px;
+      margin-left: 189px;
       margin-top: 48px;
       text-transform: uppercase;
 

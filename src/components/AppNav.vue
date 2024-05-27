@@ -1,12 +1,12 @@
 <template>
   <div class="nav">
     <div class="nav__wrapper">
-      <div class="nav__logo">
+      <router-link class="nav__logo" to="/">
         <img src="../assets/img/shared/desktop/logo.svg" alt="logo" />
-      </div>
+      </router-link>
 
       <ul class="nav__list">
-        <li class="nav__list-item">Stories</li>
+        <router-link to="/stories" class="nav__list-item">Stories</router-link>
         <li class="nav__list-item">Features</li>
         <li class="nav__list-item">Pricing</li>
       </ul>
@@ -27,6 +27,10 @@ export default {
 
 .nav {
   width: 100%;
+  height: 72px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
 
   &__wrapper {
     display: flex;
@@ -54,6 +58,10 @@ export default {
     line-height: 16px;
     letter-spacing: 2px;
     text-align: left;
+    &-item {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
   }
 
   &__button {
