@@ -16,12 +16,18 @@
         <img src="../assets/img/pricing/desktop/hero.jpg" alt="hero" />
       </div>
     </div>
+    <app-sub></app-sub>
   </div>
 </template>
 
 <script>
+import AppSub from "./AppSub.vue";
+
 export default {
   name: "AppPricing",
+  components: {
+    AppSub,
+  },
 };
 </script>
 
