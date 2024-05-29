@@ -524,8 +524,11 @@ export default {
   }
 
   &__cards img {
+    position: relative;
     width: 475px;
     height: 660px;
+    z-index: -1;
+    filter: brightness(75%);
   }
 
   &__cards {
@@ -534,6 +537,8 @@ export default {
       flex-wrap: wrap;
     }
     &-text {
+      position: relative;
+      z-index: 10;
       color: white;
       margin-top: -146px;
       margin-left: 40px;

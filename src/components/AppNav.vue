@@ -7,8 +7,10 @@
 
       <ul class="nav__list">
         <router-link to="/stories" class="nav__list-item">Stories</router-link>
-        <li class="nav__list-item">Features</li>
-        <li class="nav__list-item">Pricing</li>
+        <router-link to="/features" class="nav__list-item"
+          >Features</router-link
+        >
+        <router-link to="/pricing" class="nav__list-item">Pricing</router-link>
       </ul>
 
       <button class="nav__button">Get an invite</button>

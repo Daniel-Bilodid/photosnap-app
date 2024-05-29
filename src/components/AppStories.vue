@@ -71,7 +71,9 @@
 
   <div class="stories__cards">
     <div class="stories__cards-item" v-for="item in items" :key="item.id">
-      <img :src="item.img" :alt="item.name" />
+      <div class="stories__cards-container">
+        <img :src="item.img" :alt="item.name" />
+      </div>
       <div class="stories__cards-text">
         <div class="stories__cards-date">{{ item.date }}</div>
         <div class="stories__cards-title">
@@ -155,28 +157,30 @@ export default {
   height: 100%;
   z-index: -1;
   margin-top: -71px;
-
+  &__cards-container::after {
+  }
   &__cards {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
     &-item img {
+      position: relative;
       width: 475px;
       height: 600px;
-      background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0.274%,
-        rgba(0, 0, 0, 0.66) 100%
-      );
+      object-fit: cover; // !!!!!!!!!!!!!!!
+      z-index: -1;
+      filter: brightness(75%);
     }
     &__wrapper {
       display: flex;
       flex-direction: column;
     }
     &-text {
+      position: relative;
       color: white;
       margin-top: -146px;
       margin-left: 40px;
+      z-index: 10;
     }
     &-hr {
       background: rgb(255, 255, 255);
@@ -195,6 +199,16 @@ export default {
       letter-spacing: 0px;
       text-align: left;
       margin-bottom: 4px;
+    }
+
+    &-date {
+      color: rgb(255, 255, 255);
+      font-family: $dmsans;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: left;
     }
 
     &-author {
