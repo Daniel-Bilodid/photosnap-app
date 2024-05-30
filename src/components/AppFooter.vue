@@ -67,7 +67,48 @@
     </div>
 
     <div class="footer__contact">
-      <div class="footer__btn">GET AN INVITE</div>
+      <div class="footer__contact-wrapper">
+        <div class="footer__btn">GET AN INVITE</div>
+        <svg
+          width="42.134766"
+          height="12.707031"
+          viewBox="0 0 42.1348 12.707"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <desc>Created with Pixso.</desc>
+          <defs />
+          <path
+            id="Path 3"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 3"
+            d="M0 6.35L41.86 6.35"
+            stroke="#FFFFFF"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+          <path
+            id="Path 4"
+            d=""
+            fill="#D8D8D8"
+            fill-opacity="0"
+            fill-rule="nonzero"
+          />
+          <path
+            id="Path 4"
+            d="M35.42 0.35L41.42 6.35L35.42 12.35"
+            stroke="#FFFFFF"
+            stroke-opacity="1.000000"
+            stroke-width="1.000000"
+          />
+        </svg>
+      </div>
       <div class="footer__license">Copyright 2019. All Rights Reserved</div>
     </div>
   </div>
@@ -104,6 +145,9 @@ export default {
     right: 0;
     margin-right: 165px;
     margin-top: 64px;
+    &-wrapper {
+      display: flex;
+    }
   }
   &__social {
     color: white;
@@ -112,6 +156,15 @@ export default {
     color: white;
     margin-left: 123px;
     margin-bottom: 86px;
+
+    color: rgb(255, 255, 255);
+    font-family: $dmsans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 16px;
   }
 
   &__license {

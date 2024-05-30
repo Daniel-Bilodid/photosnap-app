@@ -99,64 +99,17 @@
         </div>
       </div>
     </div>
-
-    <div class="features__beta">
-      <div class="features__beta-text">
-        <div class="features__beta-title">
-          We’re in beta. Get your invite today!
-        </div>
-
-        <div class="features__beta-link">
-          <button>Get an invite</button>
-
-          <svg
-            width="42.135254"
-            height="12.707031"
-            viewBox="0 0 42.1353 12.707"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <desc>Created with Pixso.</desc>
-            <defs />
-            <path
-              id="Path 3"
-              d=""
-              fill="#D8D8D8"
-              fill-opacity="0"
-              fill-rule="nonzero"
-            />
-            <path
-              id="Path 3"
-              d="M0 6.35L41.86 6.35"
-              stroke="#FFFFFF"
-              stroke-opacity="1.000000"
-              stroke-width="1.000000"
-            />
-            <path
-              id="Path 4"
-              d=""
-              fill="#D8D8D8"
-              fill-opacity="0"
-              fill-rule="nonzero"
-            />
-            <path
-              id="Path 4"
-              d="M35.42 0.35L41.42 6.35L35.42 12.35"
-              stroke="#FFFFFF"
-              stroke-opacity="1.000000"
-              stroke-width="1.000000"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
+    <app-beta />
   </div>
 </template>
 
 <script>
+import AppBeta from "./AppBeta.vue";
 export default {
   name: "AppFeatures",
+  components: {
+    AppBeta,
+  },
 };
 </script>
 

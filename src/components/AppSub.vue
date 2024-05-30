@@ -14,6 +14,7 @@
         activeToggle: isActive,
         notActiveToggle: !isActive,
       }"
+      @click="toggleClass"
     >
       <div
         :class="{
@@ -21,7 +22,6 @@
           active: isActive,
           notActive: !isActive,
         }"
-        @click="toggleClass"
       ></div>
     </div>
     <div
@@ -43,43 +43,43 @@
           photographers.
         </div>
 
-        <div class="info__card-price">$19.00</div>
+        <div class="info__card-price">${{ basicPrice }}</div>
 
-        <div class="info__card-terms">per month</div>
-
-        <div class="info__btn-wrapper">
-          <button class="info__card-btn">pick plan</button>
-        </div>
-      </div>
-
-      <div class="info__card">
-        <div class="info__card-title">Basic</div>
-
-        <div class="info__card-descr">
-          Includes basic usage of our platform. Recommended for new and aspiring
-          photographers.
-        </div>
-
-        <div class="info__card-price">$19.00</div>
-
-        <div class="info__card-terms">per month</div>
+        <div class="info__card-terms">{{ amount }}</div>
 
         <div class="info__btn-wrapper">
           <button class="info__card-btn">pick plan</button>
         </div>
       </div>
 
-      <div class="info__card">
-        <div class="info__card-title">Basic</div>
+      <div class="info__card-dif">
+        <div class="info__card-title white__title">Pro</div>
 
-        <div class="info__card-descr">
-          Includes basic usage of our platform. Recommended for new and aspiring
-          photographers.
+        <div class="info__card-descr gray__descr">
+          More advanced features available. Recommended for photography veterans
+          and professionals.
         </div>
 
-        <div class="info__card-price">$19.00</div>
+        <div class="info__card-price white__price">${{ proPrice }}</div>
 
-        <div class="info__card-terms">per month</div>
+        <div class="info__card-terms gray__terms">{{ amount }}</div>
+
+        <div class="info__btn-wrapper">
+          <button class="info__card-btn white__btn">pick plan</button>
+        </div>
+      </div>
+
+      <div class="info__card">
+        <div class="info__card-title">Business</div>
+
+        <div class="info__card-descr">
+          Additional features available such as more detailed metrics.
+          Recommended for business owners.
+        </div>
+
+        <div class="info__card-price">${{ businessPrice }}</div>
+
+        <div class="info__card-terms">{{ amount }}</div>
 
         <div class="info__btn-wrapper">
           <button class="info__card-btn">pick plan</button>
@@ -95,12 +95,32 @@ export default {
   data() {
     return {
       isActive: false,
+      basicPrice: 19.99,
+      proPrice: "39.00",
+      businessPrice: "99.00",
+      terms: true,
+      amount: "per mounth",
     };
   },
   methods: {
     toggleClass() {
       this.isActive = !this.isActive;
+
+      if (this.terms) {
+        this.basicPrice = "190.00";
+        this.proPrice = "390.00";
+        this.businessPrice = "990.00";
+        this.amount = "per year";
+        this.terms = false;
+      } else {
+        this.basicPrice = 19.99;
+        this.proPrice = "39.00";
+        this.businessPrice = "99.00";
+        this.terms = true;
+        this.amount = "per mounth";
+      }
     },
+    togglePrice() {},
   },
 };
 </script>
@@ -171,6 +191,13 @@ export default {
     height: 407px;
     background: rgb(245, 245, 245);
     margin-top: 80px;
+
+    &-dif {
+      width: 350px;
+      height: 470px;
+      background: rgb(0, 0, 0);
+      margin-top: 52px;
+    }
 
     &-title {
       color: rgb(0, 0, 0);
@@ -259,6 +286,28 @@ export default {
 .notActiveToggle {
   animation: changeNonActiveColor 1s ease;
   animation-fill-mode: forwards;
+}
+
+.white__title {
+  color: white;
+  margin-top: 88px;
+}
+.white__price {
+  color: white;
+}
+.gray__terms {
+  color: white;
+  opacity: 0.6;
+}
+
+.gray__descr {
+  color: white;
+  opacity: 0.6;
+}
+
+.white__btn {
+  background-color: white;
+  color: black;
 }
 .sub__active {
   opacity: 1;
