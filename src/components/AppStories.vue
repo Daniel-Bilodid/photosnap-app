@@ -1,69 +1,66 @@
 <template>
   <div class="stories">
     <div class="stories__hero">
-      <img
-        class="stories__hero-img"
-        src="../assets/img/stories/desktop/moon-of-appalacia.jpg"
-        alt="moon of appalacia"
-      />
-      <div class="stories__hero-wrapper">
-        <div class="stories__hero-quote">LAST MONTH’S FEATURED STORY</div>
+      <div class="stories__hero-img">
+        <div class="stories__hero-wrapper">
+          <div class="stories__hero-quote">LAST MONTH’S FEATURED STORY</div>
 
-        <h1 class="stories__hero-title">HAZY FULL MOON OF APPALACHIA</h1>
+          <h1 class="stories__hero-title">HAZY FULL MOON OF APPALACHIA</h1>
 
-        <div class="stories__hero-date">
-          <span>March 2nd 2020</span>
-          by John Appleseed
-        </div>
+          <div class="stories__hero-date">
+            <span>March 2nd 2020</span>
+            by John Appleseed
+          </div>
 
-        <div class="stories__hero-descr">
-          The dissected plateau area, while not actually made up of geological
-          mountains, is popularly called "mountains," especially in eastern
-          Kentucky and West Virginia, and while the ridges are not high, the
-          terrain is extremely rugged.
-        </div>
+          <div class="stories__hero-descr">
+            The dissected plateau area, while not actually made up of geological
+            mountains, is popularly called "mountains," especially in eastern
+            Kentucky and West Virginia, and while the ridges are not high, the
+            terrain is extremely rugged.
+          </div>
 
-        <div class="stories__hero-btn">
-          <button>Read the story</button>
-          <svg
-            width="42.135254"
-            height="12.707092"
-            viewBox="0 0 42.1353 12.7071"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <desc>Created with Pixso.</desc>
-            <defs />
-            <path
-              id="Path 3"
-              d=""
-              fill="#D8D8D8"
-              fill-opacity="0"
-              fill-rule="nonzero"
-            />
-            <path
-              id="Path 3"
-              d="M0 6.35L41.86 6.35"
-              stroke="#FFFFFF"
-              stroke-opacity="1.000000"
-              stroke-width="1.000000"
-            />
-            <path
-              id="Path 4"
-              d=""
-              fill="#D8D8D8"
-              fill-opacity="0"
-              fill-rule="nonzero"
-            />
-            <path
-              id="Path 4"
-              d="M35.42 0.35L41.42 6.35L35.42 12.35"
-              stroke="#FFFFFF"
-              stroke-opacity="1.000000"
-              stroke-width="1.000000"
-            />
-          </svg>
+          <div class="stories__hero-btn">
+            <button>Read the story</button>
+            <svg
+              width="42.135254"
+              height="12.707092"
+              viewBox="0 0 42.1353 12.7071"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 3"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 3"
+                d="M0 6.35L41.86 6.35"
+                stroke="#FFFFFF"
+                stroke-opacity="1.000000"
+                stroke-width="1.000000"
+              />
+              <path
+                id="Path 4"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 4"
+                d="M35.42 0.35L41.42 6.35L35.42 12.35"
+                stroke="#FFFFFF"
+                stroke-opacity="1.000000"
+                stroke-width="1.000000"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -160,20 +157,36 @@ export default {
   &__cards-container::after {
   }
   &__cards {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
-    &-item img {
+    margin-top: -4px;
+    &-hr {
+      width: 88% !important;
+    }
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      /* flex-wrap: wrap; */
+    }
+
+    &-item {
+      width: 25%;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    img {
       position: relative;
-      width: 475px;
-      height: 600px;
-      object-fit: cover; // !!!!!!!!!!!!!!!
+      width: 100%;
+      height: auto;
       z-index: -1;
       filter: brightness(75%);
-    }
-    &__wrapper {
-      display: flex;
-      flex-direction: column;
+      max-width: 475px;
     }
     &-text {
       position: relative;
@@ -248,14 +261,13 @@ export default {
     &-img {
       width: 100%;
       height: 800px;
+      background: url("../assets/img/stories/desktop/moon-of-appalacia.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     &-wrapper {
-      position: absolute;
-      top: 20%;
-      left: 17.5%;
-      transform: translate(-50%, -50%);
-
-      margin-top: 200px;
+      padding-top: 152px;
+      padding-left: 112px;
     }
 
     &-quote {

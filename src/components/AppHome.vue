@@ -523,19 +523,35 @@ export default {
     margin-top: 66px;
   }
 
-  &__cards img {
-    position: relative;
-    width: 475px;
-    height: 660px;
-    z-index: -1;
-    filter: brightness(75%);
-  }
-
   &__cards {
-    &-wrapper {
-      display: flex;
-      flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    &-hr {
+      width: 88% !important;
     }
+    &-wrapper {
+      width: 100%;
+      display: flex;
+      /* flex-wrap: wrap; */
+    }
+
+    &-item {
+      width: 25%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      z-index: -1;
+      filter: brightness(75%);
+      max-width: 475px;
+    }
+
     &-text {
       position: relative;
       z-index: 10;

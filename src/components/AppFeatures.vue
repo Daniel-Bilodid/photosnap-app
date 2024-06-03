@@ -117,7 +117,9 @@ export default {
 @import "../variables";
 
 .features {
+  width: 100%;
   &__wrapper {
+    width: 100%;
     display: flex;
   }
 
@@ -234,11 +236,12 @@ export default {
   }
 
   &__hero img {
+    width: 100%;
     height: 100%;
   }
 
   &__text {
-    width: 42%;
+    width: 74%;
     height: 477px;
     background: rgb(0, 0, 0);
     display: flex;
