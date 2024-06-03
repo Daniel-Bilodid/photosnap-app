@@ -670,4 +670,14 @@ export default {
     margin-bottom: 56px;
   }
 }
+
+@media (max-width: 1100px) {
+  .pricing {
+    &__hero {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
 </style>

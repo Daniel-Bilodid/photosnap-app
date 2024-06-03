@@ -276,4 +276,20 @@ export default {
     }
   }
 }
+
+@media (max-width: 1100px) {
+  .features {
+    &__hero {
+      width: 70%;
+    }
+
+    &__cards {
+      width: 736px;
+    }
+
+    &__text {
+      width: 100%;
+    }
+  }
+}
 </style>

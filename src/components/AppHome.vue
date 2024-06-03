@@ -549,7 +549,6 @@ export default {
       height: auto;
       z-index: -1;
       filter: brightness(75%);
-      max-width: 475px;
     }
 
     &-text {
@@ -660,10 +659,12 @@ export default {
     }
 
     &-btn {
+      width: 205px;
+      height: 16px;
       border: none;
       background: none;
       color: white;
-      margin-left: 189px;
+      margin-left: 180px;
       margin-top: 48px;
       text-transform: uppercase;
 
@@ -698,6 +699,58 @@ export default {
         width: 100%;
         height: 850px;
         object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 1070px) {
+  .home {
+    &__cards {
+      &-wrapper {
+        flex-wrap: wrap;
+      }
+      &-item {
+        width: 50%;
+      }
+    }
+
+    &__ad {
+      height: 1000px;
+      &-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    &__photo {
+      height: 600px;
+      &-text {
+        width: 100%;
+        height: 600px;
+      }
+      &-align {
+        top: 4%;
+      }
+      &-img {
+        width: 373px;
+        height: 600px;
+        img {
+          width: 100%;
+          height: 600px;
+        }
+      }
+
+      &-title {
+        color: rgb(255, 255, 255);
+        font-family: $dmsans;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 173px;
       }
     }
   }

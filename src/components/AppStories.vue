@@ -186,7 +186,6 @@ export default {
       height: auto;
       z-index: -1;
       filter: brightness(75%);
-      max-width: 475px;
     }
     &-text {
       position: relative;
@@ -348,6 +347,16 @@ export default {
       text-align: right;
       text-transform: uppercase;
       margin-right: 16px;
+    }
+  }
+}
+
+@media (max-width: 1070px) {
+  .stories {
+    &__cards {
+      &-item {
+        width: 50%;
+      }
     }
   }
 }

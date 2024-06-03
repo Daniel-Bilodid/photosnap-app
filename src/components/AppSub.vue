@@ -36,16 +36,23 @@
   <div class="info">
     <div class="info__wrapper">
       <div class="info__card">
-        <div class="info__card-title">Basic</div>
+        <div class="info__text-wrapper">
+          <div class="info__card-title">Basic</div>
 
-        <div class="info__card-descr">
-          Includes basic usage of our platform. Recommended for new and aspiring
-          photographers.
+          <div class="info__card-descr">
+            Includes basic usage of our platform. Recommended for new and
+            aspiring photographers.
+          </div>
+
+          <div class="info__btn-wrapper">
+            <button class="info__card-btn info__tablet-btn">pick plan</button>
+          </div>
         </div>
+        <div class="info__price-wrapper">
+          <div class="info__card-price">${{ basicPrice }}</div>
 
-        <div class="info__card-price">${{ basicPrice }}</div>
-
-        <div class="info__card-terms">{{ amount }}</div>
+          <div class="info__card-terms">{{ amount }}</div>
+        </div>
 
         <div class="info__btn-wrapper">
           <button class="info__card-btn">pick plan</button>
@@ -53,33 +60,49 @@
       </div>
 
       <div class="info__card-dif">
-        <div class="info__card-title white__title">Pro</div>
+        <div class="info__text-wrapper">
+          <div class="info__card-title white__title">Pro</div>
 
-        <div class="info__card-descr gray__descr">
-          More advanced features available. Recommended for photography veterans
-          and professionals.
+          <div class="info__card-descr gray__descr">
+            More advanced features available. Recommended for photography
+            veterans and professionals.
+          </div>
+          <div class="info__btn-wrapper">
+            <button class="info__card-btn info__tablet-btn info__tablet-white">
+              pick plan
+            </button>
+          </div>
         </div>
 
-        <div class="info__card-price white__price">${{ proPrice }}</div>
+        <div class="infro__price-wrapper">
+          <div class="info__card-price white__price">${{ proPrice }}</div>
 
-        <div class="info__card-terms gray__terms">{{ amount }}</div>
-
+          <div class="info__card-terms gray__terms">{{ amount }}</div>
+        </div>
         <div class="info__btn-wrapper">
           <button class="info__card-btn white__btn">pick plan</button>
         </div>
       </div>
 
       <div class="info__card">
-        <div class="info__card-title">Business</div>
+        <div class="info__text-wrapper">
+          <div class="info__card-title">Business</div>
 
-        <div class="info__card-descr">
-          Additional features available such as more detailed metrics.
-          Recommended for business owners.
+          <div class="info__card-descr">
+            Additional features available such as more detailed metrics.
+            Recommended for business owners.
+          </div>
+
+          <div class="info__btn-wrapper">
+            <button class="info__card-btn info__tablet-btn">pick plan</button>
+          </div>
         </div>
 
-        <div class="info__card-price">${{ businessPrice }}</div>
+        <div class="info__price-wrapper">
+          <div class="info__card-price">${{ businessPrice }}</div>
 
-        <div class="info__card-terms">{{ amount }}</div>
+          <div class="info__card-terms">{{ amount }}</div>
+        </div>
 
         <div class="info__btn-wrapper">
           <button class="info__card-btn">pick plan</button>
@@ -181,6 +204,12 @@ export default {
     display: flex;
     justify-content: center;
     gap: 30px;
+  }
+
+  &__tablet {
+    &-btn {
+      display: none;
+    }
   }
   &__btn-wrapper {
     display: flex;
@@ -344,6 +373,53 @@ export default {
   }
   to {
     background: rgb(223, 223, 223);
+  }
+}
+
+@media (max-width: 1200px) {
+  .info {
+    &__card {
+      display: flex;
+      width: 689px;
+      height: 270px;
+      justify-content: space-around;
+
+      &-title {
+        text-align: left;
+      }
+      &__text {
+        &-wrapper {
+        }
+      }
+      &-descr {
+        text-align: left;
+      }
+
+      &-dif {
+        display: flex;
+        width: 689px;
+        height: 270px;
+        justify-content: space-evenly;
+      }
+      &-btn {
+        display: none;
+      }
+    }
+
+    &__tablet {
+      &-btn {
+        display: block;
+      }
+      &-white {
+        background-color: white;
+        color: black;
+      }
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 </style>
