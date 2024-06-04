@@ -279,8 +279,16 @@ export default {
 
 @media (max-width: 1100px) {
   .features {
+    &__text {
+      height: 317px;
+    }
     &__hero {
-      width: 70%;
+      width: 273px;
+      height: 490px;
+      img {
+        width: 273px;
+        height: 490px;
+      }
     }
 
     &__cards {

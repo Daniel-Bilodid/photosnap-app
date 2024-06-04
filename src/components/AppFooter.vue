@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
     <div class="footer__wrapper">
       <div class="footer__logo">
         <svg
@@ -49,6 +49,14 @@
           />
         </svg>
       </div>
+
+      <div class="footer__list tablet__list">
+        <li class="footer__list-item">Home</li>
+        <li class="footer__list-item">Stories</li>
+        <li class="footer__list-item">Features</li>
+        <li class="footer__list-item">Pricing</li>
+      </div>
+
       <div class="footer__social">
         <img src="../assets/img/shared/desktop/facebook.svg" alt="facebook" />
 
@@ -111,7 +119,7 @@
       </div>
       <div class="footer__license">Copyright 2019. All Rights Reserved</div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -122,9 +130,10 @@ export default {
 
 <style scoped lang="scss">
 @import "../variables";
+
 .footer {
   width: 100%;
-  height: 250px;
+  height: 284px;
   background: rgb(0, 0, 0);
   display: flex;
 
@@ -195,6 +204,40 @@ export default {
       text-align: left;
       text-transform: uppercase;
       cursor: pointer;
+    }
+  }
+  .tablet__list {
+    display: none;
+  }
+
+  @media (max-width: 1100px) {
+    .footer {
+      &__contact {
+        margin-right: 40px;
+      }
+
+      &__social {
+        margin-top: 44px;
+      }
+
+      &__license {
+        margin-top: 60px;
+      }
+
+      &__list {
+        display: none;
+
+        &-item {
+          margin-right: 26px;
+        }
+      }
+      &__wrapper {
+        margin-left: 39px;
+      }
+    }
+    .tablet__list {
+      display: flex;
+      margin-left: 0px;
     }
   }
 }

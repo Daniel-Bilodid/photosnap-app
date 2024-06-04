@@ -1,5 +1,6 @@
 <template>
   <div class="beta">
+    <div class="beta__align"></div>
     <div class="beta__text">
       <div class="beta__title">We’re in beta. Get your invite today!</div>
 
@@ -65,7 +66,17 @@ export default {
   background-image: url("../assets/img/shared/desktop/bg-beta.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  &__align {
+    width: 6px;
+    height: 280px;
+    background: linear-gradient(
+      26.57deg,
+      rgb(255, 197, 147) -24.989%,
+      rgb(188, 113, 152) 26.95%,
+      rgb(90, 119, 255) 74.999%
+    );
+    position: absolute;
+  }
   &__text {
     display: flex;
     justify-content: space-between;
@@ -105,6 +116,20 @@ export default {
     svg {
       margin-right: 165px;
       margin-left: 16px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .beta {
+      &__title {
+        margin-left: 35px;
+      }
+
+      &__link {
+        svg {
+          margin-right: 40px;
+        }
+      }
     }
   }
 }

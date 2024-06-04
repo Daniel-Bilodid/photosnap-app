@@ -673,9 +673,30 @@ export default {
 
 @media (max-width: 1100px) {
   .pricing {
+    &__text {
+      height: 317px;
+    }
+    &__hero {
+      width: 273px;
+      height: 490px;
+      img {
+        width: 273px;
+        height: 490px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .pricing {
+    &__text {
+      width: 100%;
+    }
+
     &__hero {
       img {
-        width: 100%;
+        width: 273px;
       }
     }
   }

@@ -10,46 +10,48 @@
           Photosnap is a platform for photographers and visual storytellers. We
           make it easy to share photos, tell stories and connect with others.
         </div>
-        <button class="home__photo-btn home__dif-btn">Get an invite</button>
-        <svg
-          width="42.135315"
-          height="12.707092"
-          viewBox="0 0 42.1353 12.7071"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <desc>Created with Pixso.</desc>
-          <defs />
-          <path
-            id="Path 3"
-            d=""
-            fill="#D8D8D8"
-            fill-opacity="0"
-            fill-rule="nonzero"
-          />
-          <path
-            id="Path 3"
-            d="M0 6.35L41.86 6.35"
-            stroke="#FFFFFF"
-            stroke-opacity="1.000000"
-            stroke-width="1.000000"
-          />
-          <path
-            id="Path 4"
-            d=""
-            fill="#D8D8D8"
-            fill-opacity="0"
-            fill-rule="nonzero"
-          />
-          <path
-            id="Path 4"
-            d="M35.42 0.35L41.42 6.35L35.42 12.35"
-            stroke="#FFFFFF"
-            stroke-opacity="1.000000"
-            stroke-width="1.000000"
-          />
-        </svg>
+        <div class="home__btn-wrapper">
+          <button class="home__photo-btn home__dif-btn">Get an invite</button>
+          <svg
+            width="42.135315"
+            height="12.707092"
+            viewBox="0 0 42.1353 12.7071"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs />
+            <path
+              id="Path 3"
+              d=""
+              fill="#D8D8D8"
+              fill-opacity="0"
+              fill-rule="nonzero"
+            />
+            <path
+              id="Path 3"
+              d="M0 6.35L41.86 6.35"
+              stroke="#FFFFFF"
+              stroke-opacity="1.000000"
+              stroke-width="1.000000"
+            />
+            <path
+              id="Path 4"
+              d=""
+              fill="#D8D8D8"
+              fill-opacity="0"
+              fill-rule="nonzero"
+            />
+            <path
+              id="Path 4"
+              d="M35.42 0.35L41.42 6.35L35.42 12.35"
+              stroke="#FFFFFF"
+              stroke-opacity="1.000000"
+              stroke-width="1.000000"
+            />
+          </svg>
+        </div>
       </div>
       <div class="home__photo-img">
         <img
@@ -75,46 +77,48 @@
           Easily add photos, text, embed maps and media from other networks.
           Then share your story with everyone.
         </div>
-        <button class="home__photo-btn text-black">Get an invite</button>
-        <svg
-          width="42.135330"
-          height="12.707153"
-          viewBox="0 0 42.1353 12.7072"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <desc>Created with Pixso.</desc>
-          <defs />
-          <path
-            id="Path 3"
-            d=""
-            fill="#D8D8D8"
-            fill-opacity="0"
-            fill-rule="nonzero"
-          />
-          <path
-            id="Path 3"
-            d="M0 6.35L41.86 6.35"
-            stroke="#000000"
-            stroke-opacity="1.000000"
-            stroke-width="1.000000"
-          />
-          <path
-            id="Path 4"
-            d=""
-            fill="#D8D8D8"
-            fill-opacity="0"
-            fill-rule="nonzero"
-          />
-          <path
-            id="Path 4"
-            d="M35.42 0.35L41.42 6.35L35.42 12.35"
-            stroke="#000000"
-            stroke-opacity="1.000000"
-            stroke-width="1.000000"
-          />
-        </svg>
+        <div class="home__btn-wrapper">
+          <button class="home__photo-btn text-black">Get an invite</button>
+          <svg
+            width="42.135330"
+            height="12.707153"
+            viewBox="0 0 42.1353 12.7072"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs />
+            <path
+              id="Path 3"
+              d=""
+              fill="#D8D8D8"
+              fill-opacity="0"
+              fill-rule="nonzero"
+            />
+            <path
+              id="Path 3"
+              d="M0 6.35L41.86 6.35"
+              stroke="#000000"
+              stroke-opacity="1.000000"
+              stroke-width="1.000000"
+            />
+            <path
+              id="Path 4"
+              d=""
+              fill="#D8D8D8"
+              fill-opacity="0"
+              fill-rule="nonzero"
+            />
+            <path
+              id="Path 4"
+              d="M35.42 0.35L41.42 6.35L35.42 12.35"
+              stroke="#000000"
+              stroke-opacity="1.000000"
+              stroke-width="1.000000"
+            />
+          </svg>
+        </div>
       </div>
     </div>
 
@@ -127,46 +131,48 @@
           audience. Our tool is designed for photographers of all levels,
           brands, businesses you name it.
         </div>
-        <button class="home__photo-btn text-black">Get an invite</button>
-        <svg
-          width="42.135330"
-          height="12.707153"
-          viewBox="0 0 42.1353 12.7072"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <desc>Created with Pixso.</desc>
-          <defs />
-          <path
-            id="Path 3"
-            d=""
-            fill="#D8D8D8"
-            fill-opacity="0"
-            fill-rule="nonzero"
-          />
-          <path
-            id="Path 3"
-            d="M0 6.35L41.86 6.35"
-            stroke="#000000"
-            stroke-opacity="1.000000"
-            stroke-width="1.000000"
-          />
-          <path
-            id="Path 4"
-            d=""
-            fill="#D8D8D8"
-            fill-opacity="0"
-            fill-rule="nonzero"
-          />
-          <path
-            id="Path 4"
-            d="M35.42 0.35L41.42 6.35L35.42 12.35"
-            stroke="#000000"
-            stroke-opacity="1.000000"
-            stroke-width="1.000000"
-          />
-        </svg>
+        <div class="home__btn-wrapper">
+          <button class="home__photo-btn text-black">Get an invite</button>
+          <svg
+            width="42.135330"
+            height="12.707153"
+            viewBox="0 0 42.1353 12.7072"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs />
+            <path
+              id="Path 3"
+              d=""
+              fill="#D8D8D8"
+              fill-opacity="0"
+              fill-rule="nonzero"
+            />
+            <path
+              id="Path 3"
+              d="M0 6.35L41.86 6.35"
+              stroke="#000000"
+              stroke-opacity="1.000000"
+              stroke-width="1.000000"
+            />
+            <path
+              id="Path 4"
+              d=""
+              fill="#D8D8D8"
+              fill-opacity="0"
+              fill-rule="nonzero"
+            />
+            <path
+              id="Path 4"
+              d="M35.42 0.35L41.42 6.35L35.42 12.35"
+              stroke="#000000"
+              stroke-opacity="1.000000"
+              stroke-width="1.000000"
+            />
+          </svg>
+        </div>
       </div>
       <div class="home__photo-img">
         <img
@@ -466,6 +472,14 @@ export default {
 .home {
   position: relative;
 
+  &__btn {
+    &-wrapper {
+      width: 386px;
+      text-align: left;
+      margin: 0 auto;
+    }
+  }
+
   .text-white {
     background-color: white;
   }
@@ -513,9 +527,7 @@ export default {
       height: 236px;
     }
   }
-  &__dif-btn {
-    margin-left: 206px !important;
-  }
+
   &__dif {
     margin-top: 18px;
   }
@@ -659,12 +671,12 @@ export default {
     }
 
     &-btn {
-      width: 205px;
+      width: 126px;
       height: 16px;
       border: none;
       background: none;
       color: white;
-      margin-left: 180px;
+
       margin-top: 48px;
       text-transform: uppercase;
 
@@ -712,6 +724,7 @@ export default {
       }
       &-item {
         width: 50%;
+        margin-bottom: 40px;
       }
     }
 

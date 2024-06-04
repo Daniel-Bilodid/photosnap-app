@@ -383,14 +383,14 @@ export default {
       width: 689px;
       height: 270px;
       justify-content: space-around;
-
+      &-price {
+        width: 180px;
+      }
       &-title {
         text-align: left;
+        margin-top: 40px;
       }
-      &__text {
-        &-wrapper {
-        }
-      }
+
       &-descr {
         text-align: left;
       }
