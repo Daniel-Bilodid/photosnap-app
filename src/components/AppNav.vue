@@ -14,13 +14,29 @@
       </ul>
 
       <button class="nav__button">Get an invite</button>
+
+      <div :class="['nav__burger', { active: isBurger }]" @click="toggleBurger">
+        <span></span>
+      </div>
     </div>
+    <div class="nav__menu"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: "AppNav",
+
+  data() {
+    return {
+      isBurger: false,
+    };
+  },
+  methods: {
+    toggleBurger() {
+      this.isBurger = !this.isBurger;
+    },
+  },
 };
 </script>
 
@@ -33,7 +49,13 @@ export default {
   background-color: white;
   position: relative;
   z-index: 10;
+  &__burger {
+    display: none;
+  }
 
+  &__menu {
+    opacity: 0;
+  }
   &__wrapper {
     display: flex;
     justify-content: space-around;
@@ -81,6 +103,82 @@ export default {
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 680px) {
+  .nav {
+    &__list {
+      display: none;
+    }
+
+    &__menu {
+      opacity: 0;
+      width: 100%;
+      height: 253px;
+      background: rgb(255, 255, 255);
+    }
+    &__logo {
+      margin-left: 24px;
+    }
+    &__wrapper {
+      justify-content: space-between;
+    }
+    &__button {
+      display: none;
+    }
+
+    &__burger {
+      display: block;
+      margin-right: 24px;
+      margin-top: 40px;
+      width: 32px;
+      height: 24px;
+      cursor: pointer;
+      right: 2rem;
+      top: 2rem;
+      z-index: 20;
+
+      span {
+        width: 100%;
+        background: rgb(0, 0, 0);
+        display: block;
+        transition: all 0.5s ease-in-out;
+        border-radius: 12px;
+        height: 1px;
+        margin-top: -5px;
+      }
+
+      span::after {
+        content: "";
+        width: 100%;
+        background: rgb(0, 0, 0);
+        display: block;
+        transition: all 0.5s ease-in-out;
+        border-radius: 12px;
+        height: 1px;
+        margin-top: -5px;
+      }
+
+      span::before {
+        transform: translateY(-10px);
+      }
+
+      span::after {
+        transform: translateY(10px);
+        margin-top: -4px;
+      }
+    }
+  }
+  .nav__burger.active span {
+  }
+
+  .nav__burger.active span {
+    transform: rotateZ(45deg) translateY(0);
+  }
+
+  .nav__burger.active span::after {
+    transform: rotateZ(-90deg) translateY(0);
   }
 }
 </style>
