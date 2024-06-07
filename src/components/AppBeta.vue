@@ -132,5 +132,45 @@ export default {
       }
     }
   }
+
+  @media (max-width: 460px) {
+    .beta {
+      &__title {
+        width: 310px;
+        height: 120px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 3.33px;
+        text-align: left;
+      }
+
+      &__align {
+        width: 128px;
+        height: 6px;
+        margin-left: 33px;
+      }
+
+      &__text {
+        flex-direction: column;
+      }
+
+      &__link {
+        margin-top: -119px;
+        margin-left: 35px;
+      }
+    }
+  }
+  @media (max-width: 321px) {
+    .beta {
+      &__title {
+        width: 250px;
+      }
+
+      &__link {
+        margin-top: -80px;
+      }
+    }
+  }
 }
 </style>

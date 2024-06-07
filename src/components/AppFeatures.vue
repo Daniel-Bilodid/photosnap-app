@@ -312,6 +312,9 @@ export default {
         width: 318px;
         height: 100px;
       }
+      &-title {
+        width: 318px;
+      }
     }
     &__card {
       &-title {
@@ -356,6 +359,22 @@ export default {
       img {
         width: 100%;
         height: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .features {
+    &__text {
+      &-descr {
+        width: 250px;
+      }
+      &-title {
+        width: 250px;
+        margin: 0 !important;
+        padding-left: 29px;
+        padding-top: 72px;
       }
     }
   }

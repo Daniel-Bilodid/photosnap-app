@@ -256,6 +256,7 @@ export default {
     width: 100%;
     height: 539px;
     display: block;
+    margin-top: -64px;
 
     &__svg {
       margin-top: 30px;

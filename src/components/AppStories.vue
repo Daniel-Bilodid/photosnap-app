@@ -483,6 +483,7 @@ export default {
     width: 100%;
     height: 550px;
     padding: 0;
+    display: block;
   }
 }
 </style>
