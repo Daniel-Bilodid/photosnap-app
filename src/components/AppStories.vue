@@ -360,4 +360,15 @@ export default {
     }
   }
 }
+
+@media (max-width: 500px) {
+  .stories {
+    &__cards {
+      flex-direction: column;
+      &-item {
+        width: 100%;
+      }
+    }
+  }
+}
 </style>

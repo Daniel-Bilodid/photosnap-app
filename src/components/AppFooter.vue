@@ -50,20 +50,28 @@
         </svg>
       </div>
 
-      <div class="footer__list tablet__list">
-        <li class="footer__list-item">Home</li>
-        <li class="footer__list-item">Stories</li>
-        <li class="footer__list-item">Features</li>
-        <li class="footer__list-item">Pricing</li>
-      </div>
+      <div class="footer__social-wrapper">
+        <div class="footer__list tablet__list">
+          <li class="footer__list-item">Home</li>
+          <li class="footer__list-item">Stories</li>
+          <li class="footer__list-item">Features</li>
+          <li class="footer__list-item">Pricing</li>
+        </div>
 
-      <div class="footer__social">
-        <img src="../assets/img/shared/desktop/facebook.svg" alt="facebook" />
+        <div class="footer__social">
+          <img src="../assets/img/shared/desktop/facebook.svg" alt="facebook" />
 
-        <img src="../assets/img/shared/desktop/youtube.svg" alt="youtube" />
-        <img src="../assets/img/shared/desktop/twitter.svg" alt="twitter" />
-        <img src="../assets/img/shared/desktop/pinterest.svg" alt="pinterest" />
-        <img src="../assets/img/shared/desktop/instagram.svg" alt="instagram" />
+          <img src="../assets/img/shared/desktop/youtube.svg" alt="youtube" />
+          <img src="../assets/img/shared/desktop/twitter.svg" alt="twitter" />
+          <img
+            src="../assets/img/shared/desktop/pinterest.svg"
+            alt="pinterest"
+          />
+          <img
+            src="../assets/img/shared/desktop/instagram.svg"
+            alt="instagram"
+          />
+        </div>
       </div>
     </div>
 
@@ -84,6 +92,7 @@
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
+          class="footer__svg"
         >
           <desc>Created with Pixso.</desc>
           <defs />
@@ -238,6 +247,50 @@ export default {
     .tablet__list {
       display: flex;
       margin-left: 0px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    width: 100%;
+    height: 539px;
+    display: block;
+
+    &__svg {
+      margin-top: 30px;
+    }
+    &__license {
+      margin: 0 auto;
+    }
+    &__wrapper {
+      margin-left: 0px !important;
+    }
+    &__logo {
+      display: flex;
+      justify-content: center;
+      padding-top: 56px;
+    }
+    &__list {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__contact {
+      margin-top: 0;
+      margin-right: 61px !important;
+    }
+    &__btn {
+      margin: 0 auto;
+      margin-bottom: 0;
+      margin-top: 30px;
+    }
+    &__social {
+      display: flex;
+      justify-content: center;
+      &-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+      }
     }
   }
 }

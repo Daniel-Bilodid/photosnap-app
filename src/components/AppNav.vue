@@ -1,4 +1,5 @@
 <template>
+  <div v-if="isBurger" class="overlay" @click="closeBurger"></div>
   <div class="nav">
     <div class="nav__wrapper">
       <router-link class="nav__logo" to="/">
@@ -19,7 +20,19 @@
         <span></span>
       </div>
     </div>
-    <div class="nav__menu"></div>
+
+    <div :class="['nav__menu', { active: isBurger }]">
+      <ul class="nav__menu-list">
+        <router-link to="/stories" class="nav__menu-item">Stories</router-link>
+        <router-link to="/features" class="nav__menu-item"
+          >Features</router-link
+        >
+        <router-link to="/pricing" class="nav__menu-item">Pricing</router-link>
+      </ul>
+      <div class="nav__menu-hr"></div>
+
+      <button class="nav__menu-btn">Get an invite</button>
+    </div>
   </div>
 </template>
 
@@ -35,6 +48,11 @@ export default {
   methods: {
     toggleBurger() {
       this.isBurger = !this.isBurger;
+      if (this.isBurger) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "";
+      }
     },
   },
 };
@@ -48,7 +66,7 @@ export default {
   height: 72px;
   background-color: white;
   position: relative;
-  z-index: 10;
+  z-index: 20;
   &__burger {
     display: none;
   }
@@ -107,16 +125,73 @@ export default {
 }
 
 @media (max-width: 680px) {
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
   .nav {
+    position: relative;
+
     &__list {
       display: none;
     }
 
     &__menu {
       opacity: 0;
+      position: absolute;
       width: 100%;
-      height: 253px;
+      height: 283px;
       background: rgb(255, 255, 255);
+      z-index: 10;
+      &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 60px;
+        padding: 0px;
+      }
+
+      &-hr {
+        width: 80%;
+        height: 1px;
+        background: rgb(0, 0, 0);
+        opacity: 0.25;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+      &-btn {
+        display: block;
+        width: 310px;
+        height: 48px;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-family: $dmsans;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-transform: uppercase;
+      }
+
+      &-item {
+        color: rgb(0, 0, 0);
+        font-family: $dmsans;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
     }
     &__logo {
       margin-left: 24px;
@@ -170,7 +245,9 @@ export default {
       }
     }
   }
-  .nav__burger.active span {
+  .nav__menu.active {
+    opacity: 1;
+    transition: all 0.3 ease-out;
   }
 
   .nav__burger.active span {

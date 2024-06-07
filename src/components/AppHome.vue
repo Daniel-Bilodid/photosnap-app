@@ -61,7 +61,7 @@
       </div>
     </div>
 
-    <div class="home__photo">
+    <div class="home__photo home__photo-mobile">
       <div class="home__photo-img">
         <img
           src="../assets/img/home/desktop/beautiful-stories.jpg"
@@ -764,6 +764,136 @@ export default {
         text-align: left;
         text-transform: uppercase;
         margin-top: 173px;
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .home {
+    &__cards {
+      &-item {
+        width: 100%;
+      }
+    }
+    &__btn {
+      &-wrapper {
+        margin-left: 33px;
+      }
+    }
+    &__photo {
+      height: 100%;
+      flex-direction: column-reverse;
+      &-title {
+        width: 318px;
+        margin-top: 72px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 3.33px;
+        margin-left: 33px;
+      }
+      &-descr {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        width: 318px;
+        margin-left: 33px;
+        margin-top: 16px;
+      }
+      &-text {
+        height: 439px;
+      }
+      &-mobile {
+        flex-direction: column;
+      }
+
+      &-align {
+        width: 128px;
+        height: 6px;
+        top: 294px;
+        margin-left: 33px;
+      }
+      &-img {
+        width: unset;
+        height: 294px;
+        img {
+          width: 100%;
+          height: 294px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .home {
+    &__ad {
+      &-card {
+        width: 100%;
+      }
+      &-descr {
+        width: 310px;
+        height: 75px;
+        font-size: 15px;
+        margin: 0 auto;
+      }
+    }
+    &__btn {
+      &-wrapper {
+        width: 320px;
+        margin-left: 15px;
+      }
+    }
+    &__photo {
+      &-title {
+        font-size: 32px;
+        width: 318px;
+        height: 120px;
+        margin-left: 15px;
+      }
+      &-descr {
+        width: 318px;
+        height: 100px;
+        font-size: 15px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .home {
+    &__ad {
+      &-card {
+        width: 100%;
+      }
+      &-descr {
+        width: 310px;
+        height: 75px;
+        font-size: 15px;
+        margin: 0 auto;
+      }
+    }
+    &__btn {
+      &-wrapper {
+        width: 320px;
+        margin-left: 5px;
+      }
+    }
+    &__photo {
+      &-title {
+        font-size: 32px;
+        width: 318px;
+        height: 120px;
+        margin-left: 5px;
+      }
+      &-descr {
+        width: 318px;
+        height: 100px;
+        font-size: 15px;
+        margin-left: 5px;
       }
     }
   }
