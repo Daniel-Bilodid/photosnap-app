@@ -288,6 +288,7 @@ export default {
       img {
         width: 273px;
         height: 490px;
+        object-fit: cover;
       }
     }
 
@@ -297,6 +298,65 @@ export default {
 
     &__text {
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .features {
+    &__wrapper {
+      flex-direction: column-reverse;
+    }
+    &__text {
+      &-descr {
+        width: 318px;
+        height: 100px;
+      }
+    }
+    &__card {
+      &-title {
+        width: 310px;
+        height: 25px;
+        font-size: 18px;
+        margin: 0 auto;
+      }
+      &-descr {
+        width: 310px;
+        height: 75px;
+        margin: 0 auto;
+        margin-top: 16px;
+      }
+    }
+    &__cards {
+      width: 100%;
+      flex-direction: column;
+    }
+    &__text {
+      margin-top: -5px;
+      align-items: start;
+      padding: 0;
+      &-title {
+        margin-left: 29px;
+        margin-top: 72px;
+      }
+      &-descr {
+        margin-left: 29px;
+        margin-top: 16px;
+      }
+    }
+    &__align {
+      width: 128px;
+      height: 6px;
+      top: 286px;
+      margin-left: 33px;
+    }
+    &__hero {
+      width: 100%;
+      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
