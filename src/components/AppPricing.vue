@@ -1061,8 +1061,11 @@ export default {
       rgb(90, 119, 255) 75.02%
     );
   }
-
+  &__hero {
+    width: 62%;
+  }
   &__hero img {
+    width: 100%;
     height: 100%;
   }
 
@@ -1113,6 +1116,11 @@ export default {
     &-wrapper {
       display: flex;
       gap: 40px;
+    }
+  }
+  &__tablet {
+    &-main {
+      display: none;
     }
   }
   &__list {

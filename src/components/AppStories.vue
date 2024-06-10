@@ -207,6 +207,23 @@ export default {
 <style scoped lang="scss">
 @import "../_variables.scss";
 
+@keyframes cardScale {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-24px);
+  }
+}
+@keyframes cardNotScale {
+  from {
+    transform: translateY(-24px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .stories {
   width: 100%;
   position: relative;
@@ -238,7 +255,16 @@ export default {
         height: auto;
       }
     }
-
+    &-item:hover {
+      animation-name: cardScale;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    &-item:not(:hover) {
+      animation-name: cardNotScale;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
     img {
       position: relative;
       width: 100%;

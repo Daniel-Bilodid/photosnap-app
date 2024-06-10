@@ -59,14 +59,133 @@
         </div>
 
         <div class="footer__social">
-          <img src="../assets/img/shared/desktop/facebook.svg" alt="facebook" />
+          <svg
+            class="footer__social-facebook"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs>
+              <linearGradient
+                id="facebook-gradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stop-color="rgb(99, 175, 219)" />
+                <stop offset="100%" stop-color="rgb(96, 40, 241)" />
+              </linearGradient>
+            </defs>
+            <path
+              id="Path"
+              d="M18.89 0L1.1 0C0.49 0 0 0.49 0 1.1L0 18.89C0 19.5 0.49 20 1.1 20L10.68 20L10.68 12.25L8.07 12.25L8.07 9.23L10.68 9.23L10.68 7.01C10.68 4.42 12.26 3.02 14.56 3.02C15.66 3.02 16.61 3.1 16.89 3.13L16.89 5.84L15.29 5.84C14.04 5.84 13.8 6.43 13.8 7.31L13.8 9.23L16.79 9.23L16.4 12.25L13.8 12.25L13.8 20L18.89 20C19.5 20 20 19.5 20 18.89L20 1.1C20 0.49 19.5 0 18.89 0Z"
+              fill="#FFFFFF"
+              fill-opacity="1"
+              fill-rule="nonzero"
+              class="facebook-path"
+            />
+          </svg>
 
-          <img src="../assets/img/shared/desktop/youtube.svg" alt="youtube" />
-          <img src="../assets/img/shared/desktop/twitter.svg" alt="twitter" />
-          <img
-            src="../assets/img/shared/desktop/pinterest.svg"
-            alt="pinterest"
-          />
+          <svg
+            class="footer__social-youtube"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs>
+              <linearGradient
+                id="youtube-gradient"
+                gradientUnits="userSpaceOnUse"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stop-color="rgb(211, 32, 90)" />
+                <stop offset="100%" stop-color="rgb(255, 90, 90)" />
+              </linearGradient>
+            </defs>
+            <path
+              id="Shape"
+              d="M10 0C4.47748 0 0 4.47754 0 10C0 15.5225 4.47748 20 10 20C15.5225 20 20 15.5225 20 10C20 4.47754 15.5225 0 10 0ZM13.7008 14.0767C11.9492 14.1968 8.04749 14.1968 6.29834 14.0767C4.40167 13.9468 4.18085 13.0183 4.16669 10C4.18085 6.97583 4.40417 6.05322 6.29834 5.92334C8.04749 5.80322 11.95 5.80322 13.7008 5.92334C15.5983 6.05322 15.8184 6.98169 15.8333 10C15.8184 13.0242 15.5958 13.9468 13.7008 14.0767ZM12.4308 9.99658L8.33331 8.04834L8.33331 11.9517L12.4308 9.99658Z"
+              clip-rule="evenodd"
+              fill="#FFFFFF"
+              fill-opacity="1"
+              fill-rule="evenodd"
+              class="youtube-path"
+            />
+          </svg>
+          <svg
+            class="footer__social-twitter"
+            width="20"
+            height="16.253418"
+            viewBox="0 0 20 16.2534"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs>
+              <linearGradient
+                id="twitter-gradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="10.225%" stop-color="rgb(101, 255, 235)" />
+                <stop offset="110.225%" stop-color="rgb(39, 113, 138)" />
+              </linearGradient>
+            </defs>
+            <path
+              id="Path"
+              d="M20 1.92C19.26 2.25 18.47 2.47 17.64 2.57C18.49 2.06 19.14 1.25 19.44 0.3C18.65 0.77 17.77 1.11 16.84 1.29C16.09 0.49 15.02 0 13.84 0C11.19 0 9.25 2.47 9.84 5.03C6.44 4.86 3.41 3.23 1.39 0.75C0.31 2.59 0.83 5 2.66 6.22C1.98 6.2 1.35 6.02 0.8 5.71C0.75 7.61 2.12 9.39 4.09 9.79C3.51 9.94 2.88 9.98 2.24 9.86C2.76 11.49 4.27 12.67 6.07 12.71C4.34 14.06 2.17 14.66 0 14.4C1.81 15.57 3.97 16.25 6.28 16.25C13.9 16.25 18.21 9.81 17.95 4.04C18.75 3.46 19.45 2.74 20 1.92Z"
+              fill="#FFFFFF"
+              fill-opacity="1"
+              fill-rule="nonzero"
+              class="twitter-path"
+            />
+          </svg>
+
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <desc>Created with Pixso.</desc>
+            <defs>
+              <linearGradient
+                id="pinterest-gradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stop-color="rgb(246, 198, 131)" />
+                <stop offset="100%" stop-color="rgb(222, 56, 56)" />
+              </linearGradient>
+            </defs>
+            <path
+              id="Path"
+              d="M10 0C4.47 0 0 4.47 0 10C0 14.23 2.63 17.85 6.35 19.31C6.26 18.52 6.18 17.3 6.39 16.44C6.57 15.66 7.56 11.47 7.56 11.47C7.56 11.47 7.26 10.87 7.26 9.98C7.26 8.59 8.07 7.56 9.07 7.56C9.92 7.56 10.33 8.2 10.33 8.96C10.33 9.82 9.79 11.1 9.51 12.29C9.27 13.29 10 14.1 10.99 14.1C12.76 14.1 14.13 12.23 14.13 9.52C14.13 7.13 12.41 5.45 9.95 5.45C7.11 5.45 5.44 7.59 5.44 9.79C5.44 10.65 5.77 11.57 6.18 12.07C6.26 12.17 6.28 12.26 6.25 12.36L5.97 13.49C5.93 13.68 5.83 13.72 5.64 13.63C4.39 13.05 3.61 11.22 3.61 9.75C3.61 6.6 5.9 3.7 10.22 3.7C13.69 3.7 16.38 6.17 16.38 9.48C16.38 12.92 14.21 15.7 11.19 15.7C10.18 15.7 9.23 15.17 8.9 14.55L8.28 16.93C8.05 17.8 7.44 18.89 7.03 19.55C7.97 19.84 8.96 20 10 20C15.52 20 20 15.52 20 10C20 4.47 15.52 0 10 0Z"
+              fill="url(#pinterest-gradient)"
+              fill-rule="nonzero"
+              class="pinterest-path"
+            />
+          </svg>
+
           <img
             src="../assets/img/shared/desktop/instagram.svg"
             alt="instagram"
@@ -140,6 +259,38 @@ export default {
 <style scoped lang="scss">
 @import "../variables";
 
+.pinterest-path {
+  transition: fill 0.5s;
+}
+
+.pinterest-path:hover {
+  fill: url(#pinterest-gradient);
+}
+
+.footer__social-twitter .twitter-path {
+  transition: fill 0.5s;
+  cursor: pointer;
+}
+
+.footer__social-twitter:hover .twitter-path {
+  fill: url(#twitter-gradient);
+}
+.footer__social-facebook .facebook-path {
+  transition: fill 0.5s;
+  cursor: pointer;
+}
+
+.footer__social-facebook:hover .facebook-path {
+  fill: url(#facebook-gradient);
+}
+.footer__social-youtube .youtube-path {
+  transition: fill 0.5s;
+  cursor: pointer;
+}
+
+.footer__social-youtube:hover .youtube-path {
+  fill: url(#youtube-gradient);
+}
 .footer {
   width: 100%;
   height: 284px;

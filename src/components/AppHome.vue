@@ -469,6 +469,22 @@ export default {
 <style scoped lang="scss">
 @import "../variables";
 
+@keyframes cardScale {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-24px);
+  }
+}
+@keyframes cardNotScale {
+  from {
+    transform: translateY(-24px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
 .home {
   position: relative;
 
@@ -544,7 +560,6 @@ export default {
     &-wrapper {
       width: 100%;
       display: flex;
-      /* flex-wrap: wrap; */
     }
 
     &-item {
@@ -553,6 +568,17 @@ export default {
         width: 100%;
         height: auto;
       }
+    }
+
+    &-item:hover {
+      animation-name: cardScale;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    &-item:not(:hover) {
+      animation-name: cardNotScale;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
     }
 
     img {
