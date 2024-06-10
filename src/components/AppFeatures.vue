@@ -350,15 +350,14 @@ export default {
     &__align {
       width: 128px;
       height: 6px;
-      top: 286px;
+      top: 384px;
       margin-left: 33px;
     }
     &__hero {
       width: 100%;
-      height: auto;
+
       img {
         width: 100%;
-        height: auto;
       }
     }
   }

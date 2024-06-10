@@ -376,7 +376,7 @@ export default {
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 767px) and (max-width: 1200px) {
   .info {
     &__card {
       display: flex;
@@ -420,6 +420,30 @@ export default {
       flex-direction: column;
       align-items: center;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .info {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    &__card {
+      width: 318px;
+      height: 407px;
+      display: block;
+      &-dif {
+        width: 318px;
+        height: 407px;
+        display: block;
+      }
+    }
+  }
+  .white__title {
+    margin-top: 56px;
   }
 }
 </style>

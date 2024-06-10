@@ -512,6 +512,519 @@
       </div>
     </div>
 
+    <div class="compare__tablet-main">
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">The features</div>
+
+        <div class="compare__tablet-bold"></div>
+
+        <div class="compare__tablet-title">UNLIMITED STORY POSTING</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">UNLIMITED PHOTO UPLOAD</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">EMBEDDING CUSTOM CONTENT</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">CUSTOMIZE METADATA</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">ADVANCED METRICS</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">PHOTO DOWNLOADS</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">SEARCH ENGINE INDEXING</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="compare__hr"></div>
+
+      <div class="compare__tablet">
+        <div class="compare__tablet-title">CUSTOM ANALYTICS</div>
+
+        <div class="compare__tablet-wrapper">
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__basic">BASIC</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub sub__pro">PRO</div>
+          </div>
+
+          <div class="compare__tablet-item">
+            <div class="compare__tablet-sub">BUSINESS</div>
+            <svg
+              width="17.451172"
+              height="14.141602"
+              viewBox="0 0 17.4512 14.1416"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <desc>Created with Pixso.</desc>
+              <defs />
+              <path
+                id="Path 5 Copy"
+                d=""
+                fill="#D8D8D8"
+                fill-opacity="0"
+                fill-rule="nonzero"
+              />
+              <path
+                id="Path 5 Copy"
+                d="M0.72 7.81L5.34 12.68L16.72 0.68"
+                stroke="#000000"
+                stroke-opacity="1.000000"
+                stroke-width="2.000000"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <app-beta></app-beta>
   </div>
 </template>
@@ -554,7 +1067,7 @@ export default {
   }
 
   &__text {
-    width: 42%;
+    width: 52%;
     height: 477px;
     background: rgb(0, 0, 0);
     display: flex;
@@ -691,12 +1204,132 @@ export default {
 @media (max-width: 1400px) {
   .pricing {
     &__text {
-      width: 100%;
+      width: 74%;
     }
 
     &__hero {
       img {
-        width: 273px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing {
+    &__wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    &__align {
+      width: 128px;
+      height: 6px;
+      margin-bottom: 294px;
+      margin-left: 29px;
+    }
+    &__text {
+      width: 100%;
+      height: 300px;
+      padding: 0;
+      align-items: start;
+      &-title {
+        width: 318px;
+        height: 40px;
+        margin-top: 66px;
+        margin-left: 29px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 3.33px;
+      }
+      &-descr {
+        width: 318px;
+        height: 100px;
+        margin-top: 16px;
+        margin-left: 29px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+      }
+    }
+    &__hero {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .compare {
+    display: none;
+  }
+
+  .compare {
+    &__hr {
+      width: 318px;
+      margin-top: 24px;
+    }
+    &__tablet {
+      width: 318px;
+      height: 100%;
+      margin: 0 auto;
+      margin-top: 23.5px;
+      &-main {
+        margin-top: 64px;
+        margin-bottom: 64.5px;
+      }
+      &-wrapper {
+        display: flex;
+        margin-top: 16px;
+      }
+      &-sub {
+        color: rgb(0, 0, 0);
+        font-family: $dmsans;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 13px;
+        letter-spacing: 1.67px;
+        text-align: left;
+        opacity: 0.5;
+        margin-bottom: 8px;
+      }
+      &-bold {
+        width: 318px;
+        height: 1px;
+        background-color: black;
+        margin-top: 23px;
+        margin-bottom: 23px;
+      }
+      &-title {
+        color: rgb(0, 0, 0);
+        font-family: $dmsans;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 2px;
+        text-align: left;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .sub__basic {
+    margin-right: 68px;
+  }
+  .sub__pro {
+    margin-right: 82px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pricing {
+    &__text {
+      &-title {
+        width: 250px;
+      }
+      &-descr {
+        width: 250px;
       }
     }
   }
