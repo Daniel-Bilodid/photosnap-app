@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <main class="home">
     <div class="home__photo">
       <div class="home__photo-text">
         <div class="home__photo-align"></div>
@@ -457,7 +457,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
