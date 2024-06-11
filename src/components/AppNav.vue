@@ -1,26 +1,34 @@
 <template>
   <div v-if="isBurger" class="overlay" @click="closeBurger"></div>
-  <div class="nav">
-    <div class="nav__wrapper">
-      <router-link class="nav__logo" to="/">
-        <img src="../assets/img/shared/desktop/logo.svg" alt="logo" />
-      </router-link>
+  <nav class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        <router-link class="nav__logo" to="/">
+          <img src="../assets/img/shared/desktop/logo.svg" alt="logo" />
+        </router-link>
 
-      <ul class="nav__list">
-        <router-link to="/stories" class="nav__list-item">Stories</router-link>
-        <router-link to="/features" class="nav__list-item"
-          >Features</router-link
+        <ul class="nav__list">
+          <router-link to="/stories" class="nav__list-item"
+            >Stories</router-link
+          >
+          <router-link to="/features" class="nav__list-item"
+            >Features</router-link
+          >
+          <router-link to="/pricing" class="nav__list-item"
+            >Pricing</router-link
+          >
+        </ul>
+
+        <button class="nav__button">Get an invite</button>
+
+        <div
+          :class="['nav__burger', { active: isBurger }]"
+          @click="toggleBurger"
         >
-        <router-link to="/pricing" class="nav__list-item">Pricing</router-link>
-      </ul>
-
-      <button class="nav__button">Get an invite</button>
-
-      <div :class="['nav__burger', { active: isBurger }]" @click="toggleBurger">
-        <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
-
     <div :class="['nav__menu', { active: isBurger }]">
       <ul class="nav__menu-list">
         <router-link to="/stories" class="nav__menu-item">Stories</router-link>
@@ -33,7 +41,7 @@
 
       <button class="nav__menu-btn">Get an invite</button>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -60,7 +68,10 @@ export default {
 
 <style scoped lang="scss">
 @import "../variables";
-
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
 .nav {
   width: 100%;
   height: 72px;
@@ -76,7 +87,7 @@ export default {
   }
   &__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &__logo {
@@ -124,6 +135,33 @@ export default {
   }
 }
 
+@media (max-width: 1200px) {
+  .container {
+    width: unset;
+  }
+
+  .nav {
+    &__wrapper {
+      justify-content: space-around;
+    }
+  }
+}
+@keyframes burgerMenu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes burgerMenuNot {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 @media (max-width: 680px) {
   .overlay {
     position: fixed;
@@ -142,7 +180,10 @@ export default {
     }
 
     &__menu {
-      opacity: 0;
+      animation-name: burgerMenuNot;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+
       position: absolute;
       width: 100%;
       height: 283px;
@@ -246,8 +287,9 @@ export default {
     }
   }
   .nav__menu.active {
-    opacity: 1;
-    transition: all 0.3 ease-out;
+    animation-name: burgerMenu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
   }
 
   .nav__burger.active span {
