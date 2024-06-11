@@ -68,7 +68,7 @@
   <div class="stories__hero-wrapper mobile__adaptation">
     <div class="stories__hero-quote">LAST MONTH’S FEATURED STORY</div>
 
-    <h1 class="stories__hero-title">HAZY FULL MOON OF APPALACHIA</h1>
+    <div class="stories__hero-title">HAZY FULL MOON OF APPALACHIA</div>
 
     <div class="stories__hero-date">
       <span>March 2nd 2020</span>

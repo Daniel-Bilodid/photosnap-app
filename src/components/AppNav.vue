@@ -37,11 +37,21 @@
     </div>
     <div :class="['nav__menu', { active: isBurger }]">
       <ul class="nav__menu-list">
-        <router-link to="/stories" class="nav__menu-item">Stories</router-link>
-        <router-link to="/features" class="nav__menu-item"
-          >Features</router-link
-        >
-        <router-link to="/pricing" class="nav__menu-item">Pricing</router-link>
+        <li>
+          <router-link to="/stories" class="nav__menu-item"
+            >Stories</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/features" class="nav__menu-item"
+            >Features</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/pricing" class="nav__menu-item"
+            >Pricing</router-link
+          >
+        </li>
       </ul>
       <div class="nav__menu-hr"></div>
 
