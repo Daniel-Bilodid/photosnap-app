@@ -8,15 +8,21 @@
         </router-link>
 
         <ul class="nav__list">
-          <router-link to="/stories" class="nav__list-item"
-            >Stories</router-link
-          >
-          <router-link to="/features" class="nav__list-item"
-            >Features</router-link
-          >
-          <router-link to="/pricing" class="nav__list-item"
-            >Pricing</router-link
-          >
+          <li>
+            <router-link to="/stories" class="nav__list-item"
+              >Stories</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/features" class="nav__list-item"
+              >Features</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/pricing" class="nav__list-item"
+              >Pricing</router-link
+            >
+          </li>
         </ul>
 
         <button class="nav__button">Get an invite</button>

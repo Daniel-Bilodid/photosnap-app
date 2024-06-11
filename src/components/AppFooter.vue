@@ -51,12 +51,12 @@
       </div>
 
       <div class="footer__social-wrapper">
-        <div class="footer__list tablet__list">
+        <ul class="footer__list tablet__list">
           <li class="footer__list-item">Home</li>
           <li class="footer__list-item">Stories</li>
           <li class="footer__list-item">Features</li>
           <li class="footer__list-item">Pricing</li>
-        </div>
+        </ul>
 
         <div class="footer__social">
           <svg
@@ -229,12 +229,12 @@
       </div>
     </div>
 
-    <div class="footer__list">
+    <ul class="footer__list">
       <li class="footer__list-item">Home</li>
       <li class="footer__list-item">Stories</li>
       <li class="footer__list-item">Features</li>
       <li class="footer__list-item">Pricing</li>
-    </div>
+    </ul>
 
     <div class="footer__contact">
       <div class="footer__contact-wrapper">
